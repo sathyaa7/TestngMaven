@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<suite name="Shopping Site TestSuite" parallel="methods" thread-count="2" data-provider-thread-count="3">-->
+<suite name="Shopping Site TestSuite" parallel="methods" thread-count="2">
+    <test name="Shopping Site Test">
+<!--        <groups>-->
+<!--                <run>-->
+<!--                    <include name="smoke"></include>-->
+<!--                </run>-->
+<!--        </groups>-->
+                <classes>
+                    <class name="SetUpAndTearDown.SetUpAndTearDown"/>
+                    <class name="tests.ShoppingScenario1Tests"/>
+                    <class name="tests.ShoppingScenario2Tests"/>
+                </classes>
+    </test>
+</suite>

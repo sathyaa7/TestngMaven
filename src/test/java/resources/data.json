@@ -1,0 +1,24 @@
+{
+  "reviews": [
+    {
+      "nickname": "AA",
+      "summary": "Pretty good",
+      "review_field": "Completely happy with the product quality and color"
+    },
+    {
+      "nickname": "BB",
+      "summary": "Not satisfied",
+      "review_field": "Different color"
+    },
+    {
+      "nickname": "CC",
+      "summary": "Great",
+      "review_field": "Cool"
+    },
+    {
+      "nickname": "DD",
+      "summary": "Awesome",
+      "review_field": "Perfect product"
+    }
+  ]
+}
