@@ -21,7 +21,7 @@ public class ShoppingScenario1Tests {
     public void shoppingScenario1()
     {
       //  System.out.println(Thread.currentThread().getId());
-        System.out.println("Commit to trigger SCM run jenkins");
+        System.out.println("Commit to trigger SCM run jenkins - scm");
         shoppingCommonPages = new ShoppingCommonPages(SetUpAndTearDown.driver.get());
         shoppingCommonPages.navigateThroughInitialPages();
 
