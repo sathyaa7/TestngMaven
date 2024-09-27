@@ -1,16 +1,21 @@
 package resources;
 
+import com.google.gson.annotations.SerializedName;
+
 public class Review {
-    private String nickname;
+
+    @SerializedName("nickname")
+    private String nick_name;
+
     private String summary;
     private String review_field;
 
     public String getNickname() {
-        return nickname;
+        return nick_name;
     }
 
     public void setNickname(String nickname) {
-        this.nickname = nickname;
+        this.nick_name = nickname;
     }
 
     public String getSummary() {
