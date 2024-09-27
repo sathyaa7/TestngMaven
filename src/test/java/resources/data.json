@@ -19,6 +19,11 @@
       "nickname": "DD",
       "summary": "Awesome",
       "review_field": "Perfect product"
+    },
+    {
+      "nickname": "EE",
+      "summary": "Great",
+      "review_field": "J'aime ca"
     }
   ]
 }
